@@ -1,0 +1,36 @@
+body {
+	font-family: "Arial", sans-serif;
+}
+
+section {
+	text-align: center;
+}
+
+
+.game--container {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	width: 306px;
+	gap: 5px;
+	margin: 50px auto;
+}
+
+.cell {
+	font-family: "Permanent Marker", cursive;
+	width: 100px;
+	height: 100px;
+	background-color: purple;
+	border: 2px solid black;
+	cursor: pointer;
+	font-size: 60px;
+}
+
+.cross {
+	background-color: green;
+	
+
+}
+
+.circle {
+	background-color: yellowgreen;
+}
