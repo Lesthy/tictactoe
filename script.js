@@ -65,7 +65,6 @@ function endGame(draw, currentClass) {
     winningMessageElement.classList.add('show')
 }
 
-
 function placeMark(cell, currentClass) {
     cell.classList.add(currentClass)
 }
